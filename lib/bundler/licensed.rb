@@ -1,4 +1,6 @@
-require "bundler/licensed/version"
+# frozen_string_literal: true
+
+require 'bundler/licensed/version'
 
 module Bundler
   module Licensed
