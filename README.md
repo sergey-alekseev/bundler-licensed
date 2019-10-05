@@ -4,7 +4,7 @@
 
 # Bundler::Licensed
 
-Use [a Bundler hook](https://bundler.io/v2.0/guides/bundler_plugins.html#developing_your_plugin_hooks) to automatically run `licensed cache` after running `bundler install` or `bundle update` commands.
+Use [a Bundler hook](https://bundler.io/v2.0/guides/bundler_plugins.html#developing_your_plugin_hooks) to automatically run `licensed cache` after running `bundle install` or `bundle update` commands.
 
 ## Installation
 
@@ -36,7 +36,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ bundler plugin install bundler-licensed
+    $ bundle plugin install bundler-licensed
 
 For more info read [how to use Bundler plugins](https://bundler.io/v2.0/guides/bundler_plugins.html#using-a-plugin).
 
