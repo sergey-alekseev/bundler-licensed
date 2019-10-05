@@ -3,9 +3,7 @@
 
 # Bundler::Licensed
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/bundler/licensed`. To experiment with that code, run `bin/console` for an interactive prompt.
-
-TODO: Delete this and the text above, and describe your gem
+Use [a Bundler hook](https://bundler.io/v2.0/guides/bundler_plugins.html#developing_your_plugin_hooks) to automatically run `licensed cache` after running `bundler install` or `bundle update` commands.
 
 ## Installation
 
@@ -25,7 +23,21 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+Add this line to your application's Gemfile:
+
+```ruby
+plugin 'bundler-licensed'
+```
+
+And then execute:
+
+    $ bundle
+
+Or install it yourself as:
+
+    $ bundler plugin install bundler-licensed
+
+For more info read [how to use Bundler plugins](https://bundler.io/v2.0/guides/bundler_plugins.html#using-a-plugin).
 
 ## Development
 
@@ -35,7 +47,7 @@ To install this gem onto your local machine, run `bundle exec rake install`. To 
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/[USERNAME]/bundler-licensed.
+Bug reports and pull requests are welcome on GitHub at https://github.com/sergey-alekseev/bundler-licensed.
 
 ## License
 
