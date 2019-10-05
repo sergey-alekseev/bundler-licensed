@@ -1,3 +1,4 @@
+[![Gem Version](https://badge.fury.io/rb/bundler-licensed.svg)](https://badge.fury.io/rb/bundler-licensed)
 [![Codacy Badge](https://api.codacy.com/project/badge/Grade/9a1e5958c5244a80b395eaf7ca3564c5)](https://www.codacy.com/manual/sergey_14/bundler-licensed?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=sergey-alekseev/bundler-licensed&amp;utm_campaign=Badge_Grade)
 [![Build Status](https://travis-ci.com/sergey-alekseev/bundler-licensed.svg?branch=master)](https://travis-ci.com/sergey-alekseev/bundler-licensed)
 
