@@ -1,3 +1,6 @@
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/9a1e5958c5244a80b395eaf7ca3564c5)](https://www.codacy.com/manual/sergey_14/bundler-licensed?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=sergey-alekseev/bundler-licensed&amp;utm_campaign=Badge_Grade)
+[![Build Status](https://travis-ci.com/sergey-alekseev/bundler-licensed.svg?branch=master)](https://travis-ci.com/sergey-alekseev/bundler-licensed)
+
 # Bundler::Licensed
 
 Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/bundler/licensed`. To experiment with that code, run `bin/console` for an interactive prompt.
