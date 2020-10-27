@@ -9,7 +9,7 @@ Gem::Specification.new do |spec|
   spec.name          = 'bundler-licensed'
   spec.version       = Bundler::Licensed::VERSION
   spec.authors       = ['Sergey Alekseev']
-  spec.email         = ['sergey+opensource@asoft.co']
+  spec.email         = ['code+bundlerlicensed@sergeyalekseev.com']
 
   spec.summary       = 'A bundler hook for https://github.com/github/licensed'
   spec.description   = <<~HEREDOC
