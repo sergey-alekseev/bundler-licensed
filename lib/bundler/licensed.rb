@@ -7,7 +7,7 @@ module Bundler
     class Error < StandardError; end
 
     Bundler::Plugin.add_hook('after-install-all') do
-      system 'licensed cache'
+      system 'licensed cache -s bundler'
     end
   end
 end

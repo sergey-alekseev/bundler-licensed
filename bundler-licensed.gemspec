@@ -13,7 +13,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = 'A bundler hook for https://github.com/github/licensed'
   spec.description   = <<~HEREDOC
-    Use a Bundler hook to automatically run `licensed cache`
+    Use a Bundler hook to automatically run `licensed cache -s bundler`
     after running `bundle install` or `bundle update` commands.
   HEREDOC
   spec.homepage      = 'https://github.com/sergey-alekseev/bundler-licensed'
@@ -40,7 +40,7 @@ Gem::Specification.new do |spec|
   spec.require_paths = ['lib']
 
   spec.add_development_dependency 'bundler', '~> 2.1.4'
-  spec.add_development_dependency 'licensed', '~> 2.5'
+  spec.add_development_dependency 'licensed', '~> 2.12'
   spec.add_development_dependency 'rake', '~> 10.0'
   spec.add_development_dependency 'rspec', '~> 3.0'
   spec.add_development_dependency 'rubocop', '~> 1.0'
