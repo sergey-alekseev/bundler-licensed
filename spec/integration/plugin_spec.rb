@@ -3,7 +3,8 @@
 RSpec.describe 'A bundler hook' do
   before(:all) do
     system 'bundle plugin install bundler-licensed ' \
-           "--git #{File.expand_path('../../', __dir__)}"
+           "--local-git #{File.expand_path('../../', __dir__)} " \
+           '--ref `git rev-parse HEAD`'
   end
 
   %w[install update].each do |command|
