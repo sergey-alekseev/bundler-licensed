@@ -13,7 +13,7 @@ Gem::Specification.new do |spec|
 
   spec.summary       = 'A bundler hook for https://github.com/github/licensed'
   spec.description   = <<~HEREDOC
-    Use a Bundler hook to automatically run `licensed cache -s bundler`
+    Use a Bundler hook to automatically run `bundle exec licensed cache -s bundler`
     after running `bundle install` or `bundle update` commands.
   HEREDOC
   spec.homepage      = 'https://github.com/sergey-alekseev/bundler-licensed'
