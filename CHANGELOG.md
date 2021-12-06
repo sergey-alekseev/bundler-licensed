@@ -6,6 +6,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [0.2.2] - 2021-12-06
+### Changed
+- [Opt-in for RubyGems MFA requirement](https://guides.rubygems.org/mfa-requirement-opt-in/).
+
 ## [0.2.1] - 2021-08-23
 ### Changed
 - A Bundler hook to automatically run `bundle exec licensed cache -s bundler` after running `bundle install` or `bundle update` commands.
@@ -18,7 +22,8 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - A Bundler hook to automatically run `licensed cache` after running `bundle install` or `bundle update` commands.
 
-[Unreleased]: https://github.com/sergey-alekseev/bundler-licensed/compare/v0.2.1...HEAD
+[Unreleased]: https://github.com/sergey-alekseev/bundler-licensed/compare/v0.2.2...HEAD
+[0.2.2]: https://github.com/sergey-alekseev/bundler-licensed/releases/tag/v0.2.2
 [0.2.1]: https://github.com/sergey-alekseev/bundler-licensed/releases/tag/v0.2.1
 [0.2.0]: https://github.com/sergey-alekseev/bundler-licensed/releases/tag/v0.2.0
 [0.1.0]: https://github.com/sergey-alekseev/bundler-licensed/releases/tag/v0.1.0
